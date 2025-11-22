@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 50vmin;
+  pointer-events: none;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.content {
+  background-color: #fff;
+  border-radius: 25px; 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Softer, more modern shadow */
+  max-width: 1000px;
+  margin: 0 1rem;
+  padding: 1rem;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.copyright {
+  font-size: 0.8rem;
+  margin-top: 20px;
+}
+
+.contact-header {
+  border-top: 2px solid #dadada;
+  padding-top: 50px;
+  margin-top: 50px;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.contact-form {
+  align-items: center;
+}
+
+.contact-form label {
+  display: block;
+  font-size: 1.1em;
+  color: #000;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 87%;
+  padding: 12px 10px;
+  border: 1px solid #555;
+  border-radius: 8px;
+  color: #000;
+  font-size: 0.8em;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.submit-button {
+  background-color: #ad5ca0;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.8em;
+  cursor: pointer;
+  padding: 16px 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}

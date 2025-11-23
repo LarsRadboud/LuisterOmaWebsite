@@ -28,7 +28,7 @@ function App() {
             </div>
             <button type="submit" className="submit-button">Verstuur</button>
           </form>
-          <p className='copyright'>&copy; 2025 Lars Keijzers. All rights reserved. Test</p>
+          <p className='copyright'>&copy; 2025 Lars Keijzers. All rights reserved.</p>
         </div>
       </main>
     </div>
